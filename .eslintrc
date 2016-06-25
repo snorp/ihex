@@ -1,0 +1,27 @@
+{
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+
+  "ecmaFeatures": {
+    "modules": true,
+    "arrowFunctions": true,
+    "blockBindings": true
+  },
+
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "quotes": [2, "single"],
+    "eol-last": [0],
+    "no-mixed-requires": [2],
+    "no-underscore-dangle": [0],
+    "strict": [2, "never"],
+    "no-unused-vars": [2],
+    "no-undef": [2],
+    "no-console": [0],
+    "comma-dangle": [0]
+  }
+}
